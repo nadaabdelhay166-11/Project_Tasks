@@ -1,11 +1,12 @@
 ﻿
     class Filed
-    {
-    static public int id { get; set; } = 0;
+    { 
+
+    public int id { get; set; } 
     public String type { get; set; } = "  ";
-    Filed()
+    public Filed()
     {
-        id++;
+        
     }
 
     }

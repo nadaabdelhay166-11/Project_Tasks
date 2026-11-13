@@ -6,6 +6,10 @@
     public DateOnly brith {  get; set;}
     public Boolean Account_Type {  get; set;}
     public Boolean Account_status {  get; set;}
+   public User()
+    {
 
+    }
+   
     }
 
