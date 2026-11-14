@@ -1,4 +1,4 @@
-﻿class PriortyRepo
+﻿public class PriortyRepo
 {
     OurContext context = new OurContext();
 
