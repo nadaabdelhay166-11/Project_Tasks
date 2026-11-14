@@ -1,5 +1,5 @@
 ﻿
-   class User
+  public class User
     {
     public int id {  get; set;}
     public String name { get; set; } = " ";

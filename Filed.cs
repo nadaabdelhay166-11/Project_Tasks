@@ -1,5 +1,5 @@
 ﻿
-    class Filed
+   public class Filed
     { 
 
     public int id { get; set; } 

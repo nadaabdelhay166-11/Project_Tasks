@@ -45,18 +45,14 @@ class TaskRepo
         }
 
     }
-    public List<TaskItem> task(int id)
+    public TaskItem task(int id)
     {
+        TaskItem t = new TaskItem();
         Context.SaveChanges();
-        return Context.Tasks.ToList();
+        return t;
 
     }
-    public List<User> Age2000 ()
-    {
-        var x = Context.Users.Where(s => s.brith.Year > 2000);
-        return x.ToList();
-
-    }
+    
   public List<TaskItem> taskF()
     {
         var x = Context.Tasks.Where(e => e.IsCompleted == false).ToList();
